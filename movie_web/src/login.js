@@ -5,7 +5,7 @@ function Login(){
     <>
     <center>
     <div class="container">
-        <image src="image_asset/netflix.png"></image>
+    <img src={require(".//image_asset/logo.png")} width="100" height="100"></img><br/><br/>
       <TextInputHolder type="email" name="email" hint="User Email"></TextInputHolder><br/>
       <TextInputHolder type="password" name="password" hint="User Password"></TextInputHolder><br/>
       <LoginButton ></LoginButton><br/><br/>
